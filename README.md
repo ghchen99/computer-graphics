@@ -1,6 +1,8 @@
 # Computer Graphics Coding
 This project focuses on various computer graphics coding tasks, including illumination and shading, texture mapping, bump mapping, render-to-texture, and GPU ray tracing. Each task involves implementing different techniques to enhance the visual quality and realism of rendered scenes.
 
+This project was completed using the Web version of the Open Graphics Library (WebGL) and the OpenGL Shading Language (GLSL).
+
 ## Task 3: Illumination and Shading
 ## Task 3a: Per Vertex Gouraud shading
 In this task, Gouraud shading is implemented using per-polygon vertex and fragment shaders. The shaders perform operations on scene vertices in object space. The vertex shader defines interfaces to pass specific information about the currently processed vertex to the fragment shader. The lighting properties, such as ambient, diffuse, specular, and shininess, are defined using uniform variables.
